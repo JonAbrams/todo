@@ -1,0 +1,19 @@
+.todo-list {
+  padding: 0;
+}
+
+.todo {
+  list-style: none;
+}
+
+.todo-text {
+  width: 250px;
+}
+
+.todo-checkbox:checked + .todo-text {
+  text-decoration: line-through;
+}
+
+.add-todo {
+  margin-top: 10px;
+}
