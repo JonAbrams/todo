@@ -4,10 +4,24 @@
 
 .todo {
   list-style: none;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: green;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+button.todo-remove {
+  background-color: red;
 }
 
 .todo-text {
   width: 250px;
+  padding: 10px;
 }
 
 .todo-checkbox:checked + .todo-text {
